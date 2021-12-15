@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/favicon/favicon-16x16.png">
+    <link rel="stylesheet" href="flights.css">
+    <title>Nates Resturant</title>
+</head>
+
+<div id="wrapper">
+    <div class="navbar">
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="Whyus.html">About us</a></li>
+        
+        <li><a href="Flights.html">Flights</a></li>
+        
+    </ul>
+</nav>
+    </div>
+    <img class="plane" src="/img/American_Airlines_Airplane.jpg" alt="Airplane in the sky" width="512"
+<body>
+    <h1>Weisel Airlines</h1>
+    <h2>Booking desk </h2>
+
+    <p></p>
+
+    <table border="1">
+      <thead>
+          <tr>
+          <th>Sunday</th>
+          <th>Monday</th>
+          <th>Tueday</th>
+          <th>Wednesday</th>
+          <th>Thursday</th>
+          <th>Friday</th>
+          <th>Saturday</th>
+      </tr>
+    </thead>
+    
+
+    <tbody>
+        <tr>
+        <td bgcolor="White">24/7</td>
+        <td>24/7</td>
+        <td>24/7</td>
+        <td>24/7</td>
+        <td>24/7</td>
+        <td>24/7</td>
+        <td bgcolor=" White">24/7</td>
+    </tr>
+
+    <tr>
+        	<td colspan=”7”>All year flights ALWAYS OPEN</td>
+    </tr>
+</tbody>
+    </table>
+
+    <form name="dinner-option" method="POST" data-netlify="true">
+
+        <fieldset>
+           <legend>Booking desk</legend> 
+
+           <label for="firstName">First Name</label><br>
+           <input type="text" id="firstName" required="required" placeholder="First Name" autofocus><br>
+
+           <label for="lastname">Last Name</label><br>
+           <input type="text" id="lastName" required="required" placeholder="Last Name"><br>
+
+           <label for="email">Email</label><br>
+           <input type="text" id="email" required="required" placeholder="Email"><br>
+           
+           <label for="phone">Phone Number</label><br>
+           <input type="text" id="phoneNumber" required="required" placeholder="Phone Number">
+
+           <p>Seating</p>
+            <label for="basic">Economy</label>
+           <input type="radio" name="Economy" id="Economy" value="basic">
+
+           <label for="Econ-plus">Economy plus</label>
+           <input type="radio" name="Plus" id="Plus" value="Econ-plus">
+
+           <label for="Top">First class</label>
+           <input type="radio" name="Best" id="Best" value="Top">
+        
+        </fieldset>
+
+
+        <fieldset>
+            <legend>Flight infromation</legend>
+
+            <h3>Monday</h3>
+            <input type="radio" id="England" name="choice" value="England">
+            <label for="England">England</label><br>
+            <input type="radio" id="Florida" name="choice" value="Florida">
+            <label for="Florida">Florida</label><br>
+
+            <h3>Tueday</h3>
+            <input type="radio" id="Poland" name="choice" value="Poland">
+            <label for="Poland">Poland</label><br>
+            <input type="radio" id="Germany" name="choice" value="Germany">
+            <label for="Germany">Germany</label><br>
+
+            <h3>Wednesday</h3>
+            <input type="radio" id="NY" name="choice" value="NY">
+            <label for="NY">New York</label><br>
+            <input type="radio" id="California" name="choice" value="California">
+            <label for="California">California</label><br>
+
+            <h3>Thursday</h3>
+            <input type="radio" id="Boston" name="choice" value="Boston">
+            <label for="Boston">Boston</label><br>
+            <input type="radio" id="Philadelphia" name="choice" value="Philadelphia">
+            <label for="Philadelphia">Philadelphia</label><br>
+
+            <h3>Friday</h3>
+            <input type="radio" id="Buffalo" name="choice" value="Buffalo">
+            <label for="Buffalo">Buffalo</label><br>
+            <input type="radio" id="Nola" name="choice" value="Nola">
+            <label for="Nola">New Orleans</label><br>
+
+            <h3>Saturday/Sunday: Fly anywhere book at airport!</h3>
+
+            <hr>
+
+            <input type="checkbox" id="legroom" name="legroom" value="legroom">
+            <label for="Legroom">Extra Leg room</label><br>
+
+            
+
+
+
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Snacks for your flight </legend>
+
+            <input type="radio" id="chips" name="snack" value="chips">
+            <label for="chips">Salt and vinegar chips</label><br>
+
+            <input type="radio" id="grapes" name="snack" value="grapes">
+            <label for="grapes">Grapes</label><br>
+
+            <input type="radio" id="pretzel" name="snack" value="pretzel">
+            <label for="pretzel">Worlds biggest pretzel</label><br>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Drinks for the flight</legend>
+                <label for="drinks"></label>
+
+                <p> Feel free to choose from our soda or beer choice</p>
+
+                    <select name="drinks" id="drinks">
+                        <optgroup label="soda">
+                            <option>Ginger ale</option>
+                            <option>Coke Vanilla</option>
+                            <option>Sprite</option>
+                            <option>Coke</option>
+                            <option>Lemonade</option>
+                            <option>Root beer</option>
+                        </optgroup>
+
+                        <optgroup label="beer">
+                            <option>Bud light</option>
+                            <option>White Claw</option>
+                            <option>Modelo</option>
+                            <option>Shipyard Pumpkin ale</option>
+                            <option>Mikes Hard Lemonade</option>
+                        </optgroup>
+                        
+                        <br>
+                        <input type="checkbox" id="lg-drink" name="lg-drink" value="lg-drink">
+                        <label for="lg-drink">Large drink (25&cent; extra</label><br> 
+
+                </fieldset>
+
+                <p>
+                <button style="background-color: crimson;"
+                onclick="Alert(Order Placed)">Book Flight</button>
+                <button style="background-color: rgb(241, 9, 55);"
+                onclick="Alert(Form Reset)">Reset form</button>
+                </p>
+
+            </form>
+
+            <a href="https://commons.wikimedia.org/wiki/File:American_Airlines_Airplane.jpg">Yannkemper</a>, CC0, via Wikimedia Commons
+    
+</body>
+</html>

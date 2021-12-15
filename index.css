@@ -1,0 +1,85 @@
+/* about css*/
+
+/* CSS reset */
+html {
+    box-sizing : border-box ;
+  }
+
+* ,
+* : before ,
+* : after {
+    box-sizing : inherit ;
+}
+ /* end of CSS reset */
+ /*google fonts
+ font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+*/
+
+body  {
+    background-color: rgb(83, 209, 114);
+}
+.bio-pic {
+    max-width: 20%;
+    margin-right: 30px;
+    border: 3px solid white;
+    padding: 15px;
+    max-height: 30%;
+    float: right;
+    border-radius: 50%;
+    
+}
+h1 {
+    font-size: 2rem;
+    font-family: 'Oswald', sans-serif;
+    color: rgb(93, 96, 236);
+
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: rgb(1, 139, 252);
+}
+
+p {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5rem;
+    color: rgb(10, 6, 253);
+}
+.navbar ul{
+    list-style: none;
+    background: local;
+    padding 0;
+    margin: 0;
+  
+  }
+  .navbar li{
+    display: inline-block;
+  }
+  .navbar a{
+    text-decoration: none;
+    color: rgb(0, 8, 15);
+    width: 100px;
+    display: block;
+    padding: 25px 20px;
+    font-size: 25;
+  }
+  .wrapper {
+    margin: 0 auto;
+    width: 1000px;
+
+#main-nav {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-variant-caps: all-small-caps;
+    font-size: 1.1rem;
+}
+
+
+.about-me {color: mintcream;}
+
+
+.fave-place {
+    float: none;
+}
